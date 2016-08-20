@@ -16,11 +16,11 @@ Usage :
   starLabelFull.attributedText = NSMutableAttributedString().starWithRating(5, outOfTotal: 5, withFontSize: 8.0)
   starLabelZero.attributedText = NSMutableAttributedString().starWithRating(0, outOfTotal: 5, withFontSize: 8.0)
 ``` 
-##Applogger: To log data to file for debugging purposes
+##Applicationlogger: To log data to file for debugging purposes
 
 Usage:
 ```
-Applogger.Applog("I am starting")
+Applicationlogger.Applog("I am starting")
 ```
 
 
