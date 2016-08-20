@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Applogger {
+class Applicationlogger {
     
     class func Applog (message:String){
         
@@ -32,8 +32,8 @@ class Applogger {
             }
             
             fileSize = fileSize/1024
-            
-            if(fileSize > 3000){
+            // Check filesize is greater
+            if(fileSize > 4000){
                 
                 let backupLogPath = (documentsPath as NSString).stringByAppendingPathComponent("application.log.bak")
                 // Check if file already exists at the log path
